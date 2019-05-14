@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<!--header-->
+	<nav role="navigation">
+		<div class="nav-wrapper container">
+			<a id="logo-container" href="#"><img src="assets/images/platzi-logo.png" alt="logo platzi"></a>
+			<ul class="right hide-on-med-and-down">
+				<li><a class="enlace-menu" href="#quienessomos">quienes somos</a></li>
+			</ul>
+			<ul class="right hide-on-med-and-down">
+				<li><a class="enlace-menu" href="#registro">registro de solisitud</a></li>
+			</ul>
+			<ul class="right hide-on-med-and-down">
+				<li><a class="enlace-menu" href="#">norma iso/iec 9110</a></li>
+			</ul>
+			<!--<ul class="right hide-on-med-and-down">
+				<li><a href="#quienessomos">quienes somos</a></li>
+				<li><a href="#registro">registro de solisitud</a></li>
+				<li><a href="#">norma iso/iec 9110</a></li>
+			</ul>-->
+			<a href="#" data-target="nav-mobile" class="sidenav-trigeer"><i class="material-icons">menu</i></a>
+		</div>
+	</nav>
+	<!--/header-->
+	<!--seccion1-->
+	<div id="index-banner" class="parallax-container">
+		<div class="section no-pad-bot">
+			<div class=" container">
+				<br><br>
+				<h1 class="header center">cedesoft itsn</h1>
+				<div class="row center">
+					<a href="#registro" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">registra tu solisitud</a>
+				</div>
+				<br><br>
+			</div>
+		</div>
+		<div class="parallax"><img src="assets/images/hawaii3.jpeg" alt="Unsplashed background img 1"></div>
+	</div>
+	<!--/seccion1-->
+	<!--seccion2 contenido en columnas-->
+	<div id="quienessomos" class="container">
+		<div class="section">
+			<!--icon section-->
+			<div class="row">
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center brown-text"><i class="material-icons">build</i></h2>
+						<h5 class="center">cedesof itsn</h5>
+						<p class="light">El centro de desarollo de software del instituto tecnologico de nochistlan(cedesoft itsn)nace en el 2018 con el apoyo de la secretaria de ecomnomia del estado de zacatecas con la finalidad de crear productos de software de calidad mediante la norma iso/iec 29110 en el perfil basico con los prosesos de gestion de proyectos de software e implementacion de software.</p>
+					</div>
+				</div>
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center brown-text"><i class="material-icons">star</i></h2>
+						<h5 class="center">mision</h5>
+						<p class="light">
+							generar productos de software de calidad atraves del cumplimiento de estandares internacionales para el desarollo de softwarepara contribuir al desarollo economico de las regiones, los altos de jalisco y sur de zacatecas.
+						</p>
+					</div>
+				</div>
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center"><i class="material-icons">trending_up</i></h2>
+						<h5 class="center">vision</h5>
+						<p class="light">
+							ser un centro de desarollo de software reconosido por la calidad de sus productos a nivel internacional.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--/seccion2-->
+	<!--seccion3-->
+	<div class="parallax-container valign-wrapper">
+		<div class="section no-pad-bot">
+			<div class="container">
+				<div class="row center">
+					<h5 class="header col s12 light">tu tienes una nesesidad de un software, nosotros la desarrollamos.</h5>
+				</div>
+			</div>
+		</div>
+		<div class="parallax"><img src="assets/images/hawaii2.jpg" alt="Unsplashed background img 2"></div>
+	</div>
+	<!--/seccion3-->
+	<!--seccion4 registro-->
+	<section id="registro">
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<h2>registra tu solicitud</h2>
+				</div>
+			</div>
+			<form class="col s12">
+				<div class="row">
+					<div class="input-field col s6">
+						<input id="first_name" type="text" class="validate">
+						<label for="first_name">first name</label>
+					</div>
+					<div class="input-field col s6">
+						<input id="last_name" type="text" class="validate">
+						<label for="last_name">last name</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12 m6">
+						<input id="telefono" type="tel" class="validate">
+						<label for="telefono">telefono</label>
+					</div>
+					<div class="input-field col s12 m6">
+						<input id="email" type="email" class="validate">
+						<label for="email">email</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<i class="material-icons prefix">mode_edit</i>
+						<textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+						<label for="icon_prefix2">descrive las fucionalidades basicas</label>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+	<!--/seccion4 registro-->
+	<!--footer-->
+	<footer id="footer" class="page-footer">
+		<div class="container">
+			<div class="row center-align">
+				<div class="col s12 l3">
+					<a href="#">preguntas frecuentes</a>
+				</div>
+				<div class="col s12 l3">
+					<a href="#">contactanos</a>
+				</div>
+				<div class="col s12 l3">
+					<a href="#">terminos y condiciones</a>
+				</div>
+				<div class="col s12 l3">
+					<a href="#">privacidad</a>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container left">
+					© 2014 copyright text
+					<a class="grey-text text-lighten-4 right" href="#!">more links</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--/footer-->
+	<!--script-->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/init.js"></script>
+	<!--/script-->
+</body>
+</html>
